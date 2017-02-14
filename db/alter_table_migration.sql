@@ -1,0 +1,4 @@
+ALTER TABLE pokemon ADD COLUMN hp INTEGER DEFAULT 60;
+
+
+UPDATE pokemon SET hp = 60;
